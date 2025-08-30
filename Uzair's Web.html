@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Explore All Musical Instruments</title>
+
+  <!-- Google AdSense Script (replace with your Publisher ID) -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXX"
+     crossorigin="anonymous"></script>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f7f7f7;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      scroll-behavior: smooth;
+    }
+    header {
+      background: #222;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    nav {
+      background: #444;
+      padding: 10px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 5px 10px;
+      padding: 6px 12px;
+      border-radius: 5px;
+      transition: background 0.3s;
+    }
+    nav a:hover {
+      background: #666;
+    }
+    #searchBox {
+      width: 80%;
+      max-width: 400px;
+      padding: 10px;
+      margin: 20px auto;
+      display: block;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+      font-size: 16px;
+    }
+    .instrument {
+      background: white;
+      margin: 20px auto;
+      padding: 20px;
+      border-radius: 12px;
+      max-width: 700px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    .instrument img {
+      width: 100%;
+      max-height: 320px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+    .price {
+      font-weight: bold;
+      color: darkgreen;
+    }
+    footer {
+      text-align:center; 
+      padding:20px; 
+      background:#222; 
+      color:white;
+      margin-top: 30px;
+    }
+    .ad-box {
+      margin: 20px auto;
+      text-align: center;
+      max-width: 728px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <h1>🎶 Explore All Musical Instruments</h1>
+    <p>Pictures, Sounds & Information about instruments worldwide</p>
+    <input type="text" id="searchBox" placeholder="Search for an instrument...">
+  </header>
+
+  <!-- NAVBAR -->
+  <nav>
+    <a href="#guitar">Guitar</a>
+    <a href="#piano">Piano</a>
+    <a href="#drums">Drums</a>
+    <a href="#violin">Violin</a>
+    <a href="#flute">Flute</a>
+    <a href="#sitar">Sitar</a>
+    <a href="#tabla">Tabla</a>
+    <a href="#saxophone">Saxophone</a>
+    <a href="#harmonium">Harmonium</a>
+    <a href="#cello">Cello</a>
+    <a href="#trumpet">Trumpet</a>
+    <a href="#clarinet">Clarinet</a>
+    <a href="#harp">Harp</a>
+    <a href="#accordion">Accordion</a>
+    <a href="#banjo">Banjo</a>
+    <a href="#mandolin">Mandolin</a>
+    <a href="#ukulele">Ukulele</a>
+    <a href="#xylophone">Xylophone</a>
+    <a href="#electricguitar">Electric Guitar</a>
+    <a href="#synthesizer">Synthesizer</a>
+  </nav>
+
+  <!-- GOOGLE ADSENSE AD BOX -->
+  <div class="ad-box">
+    <ins class="adsbygoogle"
+         style="display:block"
+         data-ad-client="ca-pub-XXXXXXXXXXXX"
+         data-ad-slot="1234567890"
+         data-ad-format="auto"
+         data-full-width-responsive="true"></ins>
+    <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+  </div>
+
+  <div id="instrumentList">
+
+    <!-- INSTRUMENTS -->
+    <div class="instrument" id="guitar" data-name="guitar">
+      <h2>🎸 Guitar</h2>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/4/45/GuitareClassique5.png" alt="Guitar">
+      <p>The guitar is a popular string instrument used in classical, pop and rock music.</p>
+      <p class="price">Price: $500</p>
+    </div>
+
+    <div class="instrument" id="piano" data-name="piano">
+      <h2>🎹 Piano</h2>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/1/17/Grand_piano_interior_view.jpg" alt="Piano">
+      <p>The piano is a versatile keyboard instrument, widely used in Western music.</p>
+      <p class="price">Price: $2000</p>
+    </div>
+
+    <div class="instrument" id="drums" data-name="drums">
+      <h2>🥁 Drums</h2>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/4/4d/Drum_set.jpg" alt="Drums">
+      <p>Drums are percussion instruments that provide rhythm in almost every genre.</p>
+      <p class="price">Price: $800</p>
+    </div>
+
+    <div class="instrument" id="violin" data-name="violin">
+      <h2>🎻 Violin</h2>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Violin_VL100.png" alt="Violin">
+      <p>The violin is a bowed string instrument with a high pitch and classical roots.</p>
+      <p class="price">Price: $700</p>
+    </div>
+
+    <div class="instrument" id="flute" data-name="flute">
+      <h2>🎶 Flute</h2>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/f/f4/Western_concert_flute_%28Yamaha%29.jpg" alt="Flute">
+      <p>The flute is a woodwind instrument played by blowing air across an opening.</p>
+      <p class="price">Price: $300</p>
+    </div>
+
+    <div class="instrument" id="sitar" data-name="sitar">
+      <h2>🎵 Sitar</h2>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/1/1f/Sitar_full.jpg" alt="Sitar">
+      <p>The sitar is a plucked string instrument from India used in classical music.</p>
+      <p class="price">Price: $600</p>
+    </div>
+
+    <div class="instrument" id="tabla" data-name="tabla">
+      <h2>🥁 Tabla</h2>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/c/cb/Tabla_instrument.png" alt="Tabla">
+      <p>Tabla is a pair of Indian drums, widely used in classical and folk music.</p>
+      <p class="price">Price: $250</p>
+    </div>
+
+    <div class="instrument" id="saxophone" data-name="saxophone">
+      <h2>🎷 Saxophone</h2>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/1/16/Saxophone_alto.jpg" alt="Saxophone">
+      <p>The saxophone is a brass woodwind instrument used in jazz and classical music.</p>
+      <p class="price">Price: $1200</p>
+    </div>
+
+    <div class="instrument" id="harmonium" data-name="harmonium">
+      <h2>🎼 Harmonium</h2>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Harmonium.jpg" alt="Harmonium">
+      <p>The harmonium is a keyboard instrument commonly used in South Asian music.</p>
+      <p class="price">Price: $400</p>
+    </div>
+
+    <div class="instrument" id="cello" data-name="cello">
+      <h2>🎻 Cello</h2>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/1/12/Cello_front_side.png" alt="Cello">
+      <p>The cello is a bowed string instrument with a deep and rich sound.</p>
+      <p class="price">Price: $1000</p>
+    </div>
+
+    <div class="instrument" id="trumpet" data-name="trumpet">
+      <h2>🎺 Trumpet</h2>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Trumpet_1.jpg" alt="Trumpet">
+      <p>The trumpet is a brass instrument with a bright and powerful tone.</p>
+      <p class="price">Price: $650</p>
+    </div>
+
+    <div class="instrument" id="clarinet" data-name="clarinet">
+      <h2>🎵 Clarinet</h2>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/2/2b/Clarinet.jpg" alt="Clarinet">
+      <p>The clarinet is a woodwind instrument with a warm and smooth tone.</p>
+      <p class="price">Price: $500</p>
+    </div>
+
+    <div class="instrument" id="harp" data-name="harp">
+      <h2>🎼 Harp</h2>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/e/e8/Modern_Harp.png" alt="Harp">
+      <p>The harp is a large string instrument known for its angelic sound.</p>
+      <p class="price">Price: $3000</p>
+    </div>
+
+    <div class="instrument" id="accordion" data-name="accordion">
+      <h2>🎹 Accordion</h2>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/5/54/Accordion.png" alt="Accordion">
+      <p>The accordion is a portable keyboard instrument used in folk music.</p>
+      <p class="price">Price: $750</p>
+    </div>
+
+    <div class="instrument" id="banjo" data-name="banjo">
+      <h2>🎶 Banjo</h2>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/1/1c/Banjo_5_strings.png" alt="Banjo">
+      <p>The banjo is a string instrument often used in country and folk music.</p>
+      <p class="price">Price: $400</p>
+    </div>
+
+    <div class="instrument" id="mandolin" data-name="mandolin">
+      <h2>🎶 Mandolin</h2>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/4/45/Mandolin1.jpg" alt="Mandolin">
+      <p>The mandolin is a small string instrument with a bright and lively tone.</p>
+      <p class="price">Price: $350</p>
+    </div>
+
+    <div class="instrument" id="ukulele" data-name="ukulele">
+      <h2>🎶 Ukulele</h2>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/3/35/Ukulele1_HiRes.jpg" alt="Ukulele">
+      <p>The ukulele is a Hawaiian string instrument with a cheerful sound.</p>
+      <p class="price">Price: $200</p>
+    </div>
+
+    <div class="instrument" id="xylophone" data-name="xylophone">
+      <h2>🎵 Xylophone</h2>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/f/f2/Xylophone.jpg" alt="Xylophone">
+      <p>The xylophone is a percussion instrument made of wooden bars.</p>
+      <p class="price">Price: $450</p>
+    </div>
+
+    <div class="instrument" id="electricguitar" data-name="electric guitar">
+      <h2>🎸 Electric Guitar</h2>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Electric_guitar.png" alt="Electric Guitar">
+      <p>The electric guitar is widely used in rock, metal, and pop music.</p>
+      <p class="price">Price: $900</p>
+    </div>
+
+    <div class="instrument" id="synthesizer" data-name="synthesizer">
+      <h2>🎹 Synthesizer</h2>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/6/64/Synthesizer_keyboard.jpg" alt="Synthesizer">
+      <p>The synthesizer is an electronic instrument that produces digital sounds.</p>
+      <p class="price">Price: $1100</p>
+    </div>
+
+  </div>
+
+  <script>
+    const searchBox = document.getElementById("searchBox");
+    const instruments = document.querySelectorAll(".instrument");
+
+    searchBox.addEventListener("keyup", function() {
+      const searchValue = searchBox.value.toLowerCase();
+      instruments.forEach(inst => {
+        const name = inst.getAttribute("data-name");
+        if (name.includes(searchValue)) {
+          inst.style.display = "block";
+        } else {
+          inst.style.display = "none";
+        }
+      });
+    });
+  </script>
+
+  <footer>
+    © 2025 Musical Instruments Guide. All Rights Reserved.
+  </footer>
+</body>
+</html>
